@@ -1,0 +1,55 @@
+body {
+    margin-left: 20px;
+    color: #FFFFFF;
+    background: #1F2937;
+    
+}
+#instruction{
+    color: #D5D4D8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+h1{
+    margin-bottom: 10px;
+}
+#sub{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#generate{
+    background: #10B981;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    padding: 3px 8px;
+    border-radius: 5px;
+
+
+}
+hr{
+    margin: 35px 0px;
+    border: 1px solid #2F3E53;
+}
+#content{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#password-one, #password-two{
+ 
+    width: 180px;
+    height: 32px;
+    color: #55F991;
+    background: #273549;
+    border-radius: 6px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 32px;
+}
