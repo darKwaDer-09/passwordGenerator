@@ -2,16 +2,23 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 let passwordOne = document.getElementById("password-one")
 let passwordTwo = document.getElementById("password-two")
+let passcondbox1 = 0
+let passcodebox2 = 0
 function randomElement(){
     return characters[Math.floor(Math.random()*characters.length)]
 }
 function passwordGenerator(){ 
     for(let i = 0 ; i < 15 ; i++){
-        passwordOne.textContent += randomElement()
+         passcondbox1+= randomElement()
+       
     }
+    passwordOne.textContent = passcondbox1
     for(let i = 0 ; i < 15 ; i++){
-        passwordTwo.textContent += randomElement()
+         passcodebox2+= randomElement()
     }
+    passwordTwo.textContent = passcodebox2
+    passcondbox1 = 0
+    passcodebox2 = 0
 }
 
 
